@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "date": "2026-09-23",
+  "stocks": 50,
+  "task_clock_seconds": 30,
+  "sessions_ms": [
+    [
+      34200000,
+      41400000
+    ],
+    [
+      46800000,
+      53820000
+    ]
+  ],
+  "horizon_ms": 30000,
+  "quantity": "100 mainboard / 200 STAR shares; BUY and SELL independently; sell assumes sufficient initial sellable inventory per task",
+  "policies": [
+    "immediate",
+    "passive",
+    "imbalance"
+  ],
+  "obi_threshold": 0.6,
+  "decision_ms": 1000,
+  "models": [
+    "tape_only",
+    "with_residual"
+  ],
+  "action_delays_ms": [
+    0,
+    100,
+    500
+  ],
+  "protection": "fixed initial opposite best +/-2 cents, minimum1 cent",
+  "latency": "signal observation at clock t; entire cancel/replace or submit action effective at t+delay; prior order may fill meanwhile; size recomputed at effectiveness; final action pre-scheduled to become effective at deadline. Idealized atomic replace, no extra ACK/return latency or market-data lag.",
+  "evaluation": "all tasks with actual fills/fees plus separately marked unfilled opportunity cost at deadline midpoint; paired all-completed subset secondary; no portfolio/roundtrip profit claim",
+  "selection": "all stocks/all regular30-second origins with full30-second window strictly inside same session; no outcome selection, no retuning; single previously studied day, not out of sample"
+}

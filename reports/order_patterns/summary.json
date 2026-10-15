@@ -1,0 +1,68 @@
+{
+  "date": "20260923",
+  "stocks": 50,
+  "continuous_adds": 4288027,
+  "pre_add_qty_changed": 84082,
+  "periodic_window_total": 11981,
+  "periodic_null_total_mean": 0.0,
+  "periodic_nonoverlap_cases": 2796,
+  "rapid_cancel_clusters": 28,
+  "identity_identifiable": false,
+  "quote_control_excluded_stock": 601166,
+  "periodic_null_runs": 10,
+  "seed": 20260923,
+  "matched_controls": {
+    "0": {
+      "stocks": 49,
+      "orders": 2521403,
+      "observed_round": 0.15670488644438552,
+      "expected_round": 0.11795503150767984,
+      "excess_round_pp": 3.8749854936705677,
+      "observed_priority": 0.10505463061526596,
+      "expected_priority": 0.10651615906452828,
+      "excess_priority_pp": -0.14615284492623365,
+      "round_positive_stocks": 48,
+      "priority_positive_stocks": 21
+    },
+    "1000": {
+      "stocks": 49,
+      "orders": 2381316,
+      "observed_round": 0.1590159293679066,
+      "expected_round": 0.11832221004530953,
+      "excess_round_pp": 4.06937193225971,
+      "observed_priority": 0.10448636771468198,
+      "expected_priority": 0.10673203674129172,
+      "excess_priority_pp": -0.2245669026609758,
+      "round_positive_stocks": 48,
+      "priority_positive_stocks": 21
+    },
+    "2000": {
+      "stocks": 49,
+      "orders": 2302251,
+      "observed_round": 0.16040339348110288,
+      "expected_round": 0.11808410733047228,
+      "excess_round_pp": 4.231928615063058,
+      "observed_priority": 0.1045568458373213,
+      "expected_priority": 0.1064634462213224,
+      "excess_priority_pp": -0.19066003840010917,
+      "round_positive_stocks": 48,
+      "priority_positive_stocks": 21
+    }
+  },
+  "size_equal_stock_fractions": {
+    "multiple100": 0.9561005110678154,
+    "multiple1000": 0.10869731340930829,
+    "multiple10000": 0.012583350914814497,
+    "not_multiple100": 0.04389948893218477,
+    "size100": 0.28627221320295837
+  },
+  "periodic_behaviour": {
+    "orders_in_cases": 22368,
+    "no_fills_fraction": 0.9929363376251789,
+    "fully_cancelled_without_fills_fraction": 0.9927128040057225,
+    "mean_period_3sec_cases_fraction": 0.830829756795422,
+    "mainboard_cases": 60,
+    "morning_cases": 1729,
+    "afternoon_cases": 1067
+  }
+}

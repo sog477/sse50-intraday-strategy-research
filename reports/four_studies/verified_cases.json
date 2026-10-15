@@ -1,0 +1,104 @@
+[
+  {
+    "kind": "gap_case",
+    "symbol": 688256,
+    "time_ms": 47845100,
+    "side": "S",
+    "active_oid": 8975760,
+    "quantity": 155,
+    "before_bid_ask_cents": [
+      111000,
+      111001
+    ],
+    "after_bid_ask_cents": [
+      110800,
+      111001
+    ],
+    "passive_next_gap_cents": 200,
+    "signed_mid_impact_cents": 100.0,
+    "checked": true
+  },
+  {
+    "kind": "gap_case",
+    "symbol": 601668,
+    "time_ms": 49512900,
+    "side": "B",
+    "active_oid": 10560542,
+    "quantity": 1000000,
+    "before_bid_ask_cents": [
+      429,
+      430
+    ],
+    "after_bid_ask_cents": [
+      429,
+      430
+    ],
+    "passive_next_gap_cents": 1,
+    "signed_mid_impact_cents": 0.0,
+    "checked": true
+  },
+  {
+    "kind": "replacement_case",
+    "symbol": 600028,
+    "classification": "active_no_ADD",
+    "old_oid": 12055316,
+    "new_oid": 12143447,
+    "cancel_time_ms": 49887570,
+    "lag_ms": 50,
+    "quantity": 29600,
+    "old_price_cents": 529,
+    "new_residual_price_or_noADD_vwap_cents": 531.0,
+    "old_cancel_seq": 19829994,
+    "new_first_seq": 19830073,
+    "new_filled30_fraction": 1.0,
+    "checked": true
+  },
+  {
+    "kind": "replacement_case",
+    "symbol": 600028,
+    "classification": "chase",
+    "old_oid": 4930363,
+    "new_oid": 4946680,
+    "cancel_time_ms": 36077140,
+    "lag_ms": 40,
+    "quantity": 166000,
+    "old_price_cents": 533,
+    "new_residual_price_or_noADD_vwap_cents": 534,
+    "old_cancel_seq": 7778637,
+    "new_first_seq": 7778767,
+    "new_filled30_fraction": 1.0,
+    "checked": true
+  },
+  {
+    "kind": "replacement_case",
+    "symbol": 600028,
+    "classification": "retreat",
+    "old_oid": 12056432,
+    "new_oid": 12418937,
+    "cancel_time_ms": 50328030,
+    "lag_ms": 30,
+    "quantity": 50000,
+    "old_price_cents": 529,
+    "new_residual_price_or_noADD_vwap_cents": 527,
+    "old_cancel_seq": 20299966,
+    "new_first_seq": 20299998,
+    "new_filled30_fraction": 0.0,
+    "checked": true
+  },
+  {
+    "kind": "replacement_case",
+    "symbol": 600028,
+    "classification": "same_price",
+    "old_oid": 14730181,
+    "new_oid": 14737909,
+    "cancel_time_ms": 53271570,
+    "lag_ms": 90,
+    "quantity": 50000,
+    "old_price_cents": 529,
+    "new_residual_price_or_noADD_vwap_cents": 529,
+    "old_cancel_seq": 24187164,
+    "new_first_seq": 24187279,
+    "new_filled30_fraction": 0.0,
+    "checked": true
+  }
+]

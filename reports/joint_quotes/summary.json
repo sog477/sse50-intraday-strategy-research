@@ -1,0 +1,1539 @@
+{
+  "date": "2026-09-23",
+  "rules": {
+    "candidate": "same channel, exact timestamp, adjacent original IDs, opposite sides; greedy disjoint",
+    "linked": "same qty on both sides; current plus previous three candidates within same 30min and qty group; three gaps 0.5-60s, CV<=3%, width range<=1cent and positive",
+    "cash": "known original buy quantity equals exact ceil(previously chosen cash target/buy price)",
+    "outcomes": "ADD remainder only, 1/3/10s after publication; last 10s before session ends excluded",
+    "common_cancel": "both entire ADD remainders cancelled without post-ADD fill, cancellation timestamps differ <=20ms",
+    "control": "other non-pair ADDs, same stock/side/5min/depth/spread/size strata, >=5 control legs per stratum",
+    "warning": "same-day exploratory targets and serial dependent observations, not participant identity or causal evidence"
+  },
+  "stock_results": [
+    {
+      "symbol": 600028,
+      "adds": 102236,
+      "pairs": 581,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600030,
+      "adds": 62184,
+      "pairs": 162,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600031,
+      "adds": 83557,
+      "pairs": 207,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600036,
+      "adds": 89614,
+      "pairs": 276,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600050,
+      "adds": 35174,
+      "pairs": 121,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600089,
+      "adds": 47754,
+      "pairs": 69,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600111,
+      "adds": 55783,
+      "pairs": 96,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600150,
+      "adds": 145704,
+      "pairs": 658,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600183,
+      "adds": 263081,
+      "pairs": 1826,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600276,
+      "adds": 97097,
+      "pairs": 319,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600309,
+      "adds": 107650,
+      "pairs": 402,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600406,
+      "adds": 49819,
+      "pairs": 71,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600519,
+      "adds": 40224,
+      "pairs": 68,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600760,
+      "adds": 22936,
+      "pairs": 22,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600809,
+      "adds": 32024,
+      "pairs": 44,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600887,
+      "adds": 70701,
+      "pairs": 234,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600900,
+      "adds": 108457,
+      "pairs": 312,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 600930,
+      "adds": 49944,
+      "pairs": 141,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601012,
+      "adds": 78448,
+      "pairs": 169,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601088,
+      "adds": 47521,
+      "pairs": 108,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601127,
+      "adds": 61995,
+      "pairs": 169,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601166,
+      "adds": 44457,
+      "pairs": 129,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601211,
+      "adds": 54840,
+      "pairs": 111,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601288,
+      "adds": 137545,
+      "pairs": 712,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601318,
+      "adds": 87922,
+      "pairs": 265,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601328,
+      "adds": 58165,
+      "pairs": 223,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601398,
+      "adds": 106469,
+      "pairs": 463,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601600,
+      "adds": 112315,
+      "pairs": 419,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601601,
+      "adds": 62433,
+      "pairs": 130,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601628,
+      "adds": 39347,
+      "pairs": 45,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601658,
+      "adds": 48752,
+      "pairs": 264,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601668,
+      "adds": 62853,
+      "pairs": 330,
+      "linked": 3,
+      "joint": 0
+    },
+    {
+      "symbol": 601688,
+      "adds": 41055,
+      "pairs": 64,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601728,
+      "adds": 42885,
+      "pairs": 100,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601857,
+      "adds": 67225,
+      "pairs": 270,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601888,
+      "adds": 43240,
+      "pairs": 43,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601899,
+      "adds": 180419,
+      "pairs": 961,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601919,
+      "adds": 74433,
+      "pairs": 196,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 601988,
+      "adds": 106006,
+      "pairs": 540,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 603019,
+      "adds": 91167,
+      "pairs": 108,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 603259,
+      "adds": 138575,
+      "pairs": 529,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 603501,
+      "adds": 39298,
+      "pairs": 71,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 603986,
+      "adds": 227656,
+      "pairs": 1156,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 603993,
+      "adds": 126474,
+      "pairs": 596,
+      "linked": 0,
+      "joint": 0
+    },
+    {
+      "symbol": 688008,
+      "adds": 187320,
+      "pairs": 10848,
+      "linked": 323,
+      "joint": 98
+    },
+    {
+      "symbol": 688012,
+      "adds": 95850,
+      "pairs": 10401,
+      "linked": 278,
+      "joint": 71
+    },
+    {
+      "symbol": 688041,
+      "adds": 137096,
+      "pairs": 11081,
+      "linked": 596,
+      "joint": 79
+    },
+    {
+      "symbol": 688111,
+      "adds": 41064,
+      "pairs": 5430,
+      "linked": 198,
+      "joint": 31
+    },
+    {
+      "symbol": 688256,
+      "adds": 82247,
+      "pairs": 9660,
+      "linked": 59,
+      "joint": 53
+    },
+    {
+      "symbol": 688981,
+      "adds": 99016,
+      "pairs": 6291,
+      "linked": 229,
+      "joint": 0
+    }
+  ],
+  "groups": {
+    "all_candidates": {
+      "pairs": 67461,
+      "stocks": 50,
+      "same_qty_fraction": 0.5818324661656364,
+      "both_top10_fraction": 0.13905812247076088,
+      "either_top10_fraction": 0.24262907457642194,
+      "median_buy_rank": 47.0,
+      "median_sell_rank": 35.0,
+      "median_buy_distance_ticks": 93.0,
+      "median_sell_distance_ticks": 96.0,
+      "price_moved_fraction": 0.7671098857117445,
+      "both_full_cancel_no_postfill_fraction": 0.7936585582781163,
+      "1000": {
+        "mean_fill_fraction": 0.02887971456960414,
+        "mean_cancel_fraction": 0.0023362399639099514,
+        "any_fill_probability": 0.058745052697113886,
+        "both_full_cancel_probability": 0.0007115222128340819,
+        "common_cancel_probability": 0.0006818754539659952
+      },
+      "3000": {
+        "mean_fill_fraction": 0.04171553610474644,
+        "mean_cancel_fraction": 0.3502321911709415,
+        "any_fill_probability": 0.08115800240138747,
+        "both_full_cancel_probability": 0.31127614473547677,
+        "common_cancel_probability": 0.30524302930582115
+      },
+      "10000": {
+        "mean_fill_fraction": 0.05778188405388644,
+        "mean_cancel_fraction": 0.6256649228740464,
+        "any_fill_probability": 0.10678762544284846,
+        "both_full_cancel_probability": 0.5878804049747262,
+        "common_cancel_probability": 0.5329153140332933
+      }
+    },
+    "linked": {
+      "pairs": 1686,
+      "stocks": 7,
+      "same_qty_fraction": 1.0,
+      "both_top10_fraction": 0.0017793594306049821,
+      "either_top10_fraction": 0.027283511269276393,
+      "median_buy_rank": 51.0,
+      "median_sell_rank": 39.0,
+      "median_buy_distance_ticks": 93.0,
+      "median_sell_distance_ticks": 108.0,
+      "price_moved_fraction": 0.99644128113879,
+      "both_full_cancel_no_postfill_fraction": 0.9970344009489917,
+      "1000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.0,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.0,
+        "common_cancel_probability": 0.0
+      },
+      "3000": {
+        "mean_fill_fraction": 0.0002965599051008304,
+        "mean_cancel_fraction": 0.4139976275207592,
+        "any_fill_probability": 0.0005931198102016608,
+        "both_full_cancel_probability": 0.3932384341637011,
+        "common_cancel_probability": 0.3932384341637011
+      },
+      "10000": {
+        "mean_fill_fraction": 0.0002965599051008304,
+        "mean_cancel_fraction": 0.7980427046263345,
+        "any_fill_probability": 0.0005931198102016608,
+        "both_full_cancel_probability": 0.791814946619217,
+        "common_cancel_probability": 0.7568208778173191
+      }
+    },
+    "cash_scope_candidates": {
+      "pairs": 47399,
+      "stocks": 5,
+      "same_qty_fraction": 0.6691491381674719,
+      "both_top10_fraction": 0.012574104938922762,
+      "either_top10_fraction": 0.08067680752758496,
+      "median_buy_rank": 58.0,
+      "median_sell_rank": 39.0,
+      "median_buy_distance_ticks": 122.0,
+      "median_sell_distance_ticks": 124.0,
+      "price_moved_fraction": 0.9071921348551657,
+      "both_full_cancel_no_postfill_fraction": 0.972130213717589,
+      "1000": {
+        "mean_fill_fraction": 0.005972343957907309,
+        "mean_cancel_fraction": 0.0010286767651076535,
+        "any_fill_probability": 0.013122639718137513,
+        "both_full_cancel_probability": 0.0006751197282643094,
+        "common_cancel_probability": 0.0006540222367560497
+      },
+      "3000": {
+        "mean_fill_fraction": 0.0081133400161357,
+        "mean_cancel_fraction": 0.4358500806882661,
+        "any_fill_probability": 0.01711006561319859,
+        "both_full_cancel_probability": 0.3957256482204266,
+        "common_cancel_probability": 0.38954408320850653
+      },
+      "10000": {
+        "mean_fill_fraction": 0.010253914629034324,
+        "mean_cancel_fraction": 0.7771601337192302,
+        "any_fill_probability": 0.020570054220553177,
+        "both_full_cancel_probability": 0.7516825249477838,
+        "common_cancel_probability": 0.6832000675119728
+      }
+    },
+    "cash_only": {
+      "pairs": 17610,
+      "stocks": 5,
+      "same_qty_fraction": 0.5851788756388415,
+      "both_top10_fraction": 0.00272572402044293,
+      "either_top10_fraction": 0.12265758091993186,
+      "median_buy_rank": 39.0,
+      "median_sell_rank": 23.0,
+      "median_buy_distance_ticks": 99.0,
+      "median_sell_distance_ticks": 101.0,
+      "price_moved_fraction": 0.9034071550255537,
+      "both_full_cancel_no_postfill_fraction": 0.9931289040318001,
+      "1000": {
+        "mean_fill_fraction": 0.0008084048695944355,
+        "mean_cancel_fraction": 0.001050648251494166,
+        "any_fill_probability": 0.002555366269165247,
+        "both_full_cancel_probability": 0.0010221465076660989,
+        "common_cancel_probability": 0.0010221465076660989
+      },
+      "3000": {
+        "mean_fill_fraction": 0.0014827695559232802,
+        "mean_cancel_fraction": 0.5117675670069934,
+        "any_fill_probability": 0.0040885860306643955,
+        "both_full_cancel_probability": 0.45093696763202723,
+        "common_cancel_probability": 0.44366837024417943
+      },
+      "10000": {
+        "mean_fill_fraction": 0.0018198956417307495,
+        "mean_cancel_fraction": 0.9216990130312205,
+        "any_fill_probability": 0.004826802952867689,
+        "both_full_cancel_probability": 0.9059625212947189,
+        "common_cancel_probability": 0.7894378194207836
+      }
+    },
+    "linked_without_cash": {
+      "pairs": 1122,
+      "stocks": 5,
+      "same_qty_fraction": 1.0,
+      "both_top10_fraction": 0.0,
+      "either_top10_fraction": 0.0,
+      "median_buy_rank": 63.0,
+      "median_sell_rank": 43.0,
+      "median_buy_distance_ticks": 100.0,
+      "median_sell_distance_ticks": 114.0,
+      "price_moved_fraction": 0.9973262032085561,
+      "both_full_cancel_no_postfill_fraction": 1.0,
+      "1000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.0,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.0,
+        "common_cancel_probability": 0.0
+      },
+      "3000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.35294117647058826,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.34581105169340465,
+        "common_cancel_probability": 0.34581105169340465
+      },
+      "10000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.7299465240641712,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.7281639928698752,
+        "common_cancel_probability": 0.7165775401069518
+      }
+    },
+    "joint": {
+      "pairs": 332,
+      "stocks": 5,
+      "same_qty_fraction": 1.0,
+      "both_top10_fraction": 0.0,
+      "either_top10_fraction": 0.12951807228915663,
+      "median_buy_rank": 31.0,
+      "median_sell_rank": 18.0,
+      "median_buy_distance_ticks": 49.5,
+      "median_sell_distance_ticks": 46.0,
+      "price_moved_fraction": 1.0,
+      "both_full_cancel_no_postfill_fraction": 0.9969879518072289,
+      "1000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.0,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.0,
+        "common_cancel_probability": 0.0
+      },
+      "3000": {
+        "mean_fill_fraction": 0.0015060240963855422,
+        "mean_cancel_fraction": 0.463855421686747,
+        "any_fill_probability": 0.0030120481927710845,
+        "both_full_cancel_probability": 0.39759036144578314,
+        "common_cancel_probability": 0.39759036144578314
+      },
+      "10000": {
+        "mean_fill_fraction": 0.0015060240963855422,
+        "mean_cancel_fraction": 0.9819277108433735,
+        "any_fill_probability": 0.0030120481927710845,
+        "both_full_cancel_probability": 0.963855421686747,
+        "common_cancel_probability": 0.8463855421686747
+      }
+    },
+    "joint_morning": {
+      "pairs": 114,
+      "stocks": 5,
+      "same_qty_fraction": 1.0,
+      "both_top10_fraction": 0.0,
+      "either_top10_fraction": 0.20175438596491227,
+      "median_buy_rank": 26.0,
+      "median_sell_rank": 15.0,
+      "median_buy_distance_ticks": 49.0,
+      "median_sell_distance_ticks": 43.5,
+      "price_moved_fraction": 1.0,
+      "both_full_cancel_no_postfill_fraction": 1.0,
+      "1000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.0,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.0,
+        "common_cancel_probability": 0.0
+      },
+      "3000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.4692982456140351,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.41228070175438597,
+        "common_cancel_probability": 0.41228070175438597
+      },
+      "10000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.9956140350877193,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.9912280701754386,
+        "common_cancel_probability": 0.8596491228070176
+      }
+    },
+    "joint_afternoon": {
+      "pairs": 218,
+      "stocks": 5,
+      "same_qty_fraction": 1.0,
+      "both_top10_fraction": 0.0,
+      "either_top10_fraction": 0.09174311926605505,
+      "median_buy_rank": 33.5,
+      "median_sell_rank": 20.0,
+      "median_buy_distance_ticks": 49.5,
+      "median_sell_distance_ticks": 47.0,
+      "price_moved_fraction": 1.0,
+      "both_full_cancel_no_postfill_fraction": 0.9954128440366973,
+      "1000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.0,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.0,
+        "common_cancel_probability": 0.0
+      },
+      "3000": {
+        "mean_fill_fraction": 0.0022935779816513763,
+        "mean_cancel_fraction": 0.4610091743119266,
+        "any_fill_probability": 0.0045871559633027525,
+        "both_full_cancel_probability": 0.38990825688073394,
+        "common_cancel_probability": 0.38990825688073394
+      },
+      "10000": {
+        "mean_fill_fraction": 0.0022935779816513763,
+        "mean_cancel_fraction": 0.9747706422018348,
+        "any_fill_probability": 0.0045871559633027525,
+        "both_full_cancel_probability": 0.9495412844036697,
+        "common_cancel_probability": 0.8394495412844036
+      }
+    }
+  },
+  "cash_targets_yuan": {
+    "688008": 100000,
+    "688012": 200000,
+    "688041": 100000,
+    "688111": 100000,
+    "688256": 300000
+  },
+  "matched": {
+    "all": {
+      "eligible_treatment_legs": 664,
+      "matched_treatment_legs": 556,
+      "strata": 340,
+      "distinct_control_legs": 15424,
+      "metrics": {
+        "fill_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 2.398081534772182e-06,
+          "difference": -2.398081534772182e-06
+        },
+        "cancel_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 5.7089950238413775e-05,
+          "difference": -5.7089950238413775e-05
+        },
+        "any_fill1000": {
+          "joint": 0.0,
+          "control_reweighted": 2.398081534772182e-06,
+          "difference": -2.398081534772182e-06
+        },
+        "fill_frac3000": {
+          "joint": 0.0017985611510791368,
+          "control_reweighted": 0.0003621103117505995,
+          "difference": 0.0014364508393285374
+        },
+        "cancel_frac3000": {
+          "joint": 0.47302158273381295,
+          "control_reweighted": 0.42317511418823206,
+          "difference": 0.04984646854558089
+        },
+        "any_fill3000": {
+          "joint": 0.0017985611510791368,
+          "control_reweighted": 0.0003621103117505995,
+          "difference": 0.0014364508393285374
+        },
+        "fill_frac10000": {
+          "joint": 0.0017985611510791368,
+          "control_reweighted": 0.0010422008633024958,
+          "difference": 0.000756360287776641
+        },
+        "cancel_frac10000": {
+          "joint": 0.9838129496402878,
+          "control_reweighted": 0.7960382818255936,
+          "difference": 0.1877746678146942
+        },
+        "any_fill10000": {
+          "joint": 0.0017985611510791368,
+          "control_reweighted": 0.0010422008633024958,
+          "difference": 0.000756360287776641
+        }
+      },
+      "stock_differences": [
+        {
+          "symbol": 688008,
+          "matched_legs": 180,
+          "cancel3_difference": 0.05348925760341132,
+          "fill3_difference": 0.005548148148148148
+        },
+        {
+          "symbol": 688012,
+          "matched_legs": 108,
+          "cancel3_difference": 0.05841974890371002,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688041,
+          "matched_legs": 132,
+          "cancel3_difference": 0.10647250826089347,
+          "fill3_difference": -0.0015151515151515152
+        },
+        {
+          "symbol": 688111,
+          "matched_legs": 48,
+          "cancel3_difference": -0.15580750073453137,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688256,
+          "matched_legs": 88,
+          "cancel3_difference": 0.059109388703952354,
+          "fill3_difference": 0.0
+        }
+      ]
+    },
+    "morning": {
+      "eligible_treatment_legs": 228,
+      "matched_treatment_legs": 190,
+      "strata": 122,
+      "distinct_control_legs": 5960,
+      "metrics": {
+        "fill_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 7.017543859649123e-06,
+          "difference": -7.017543859649123e-06
+        },
+        "cancel_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 6.586642043705756e-05,
+          "difference": -6.586642043705756e-05
+        },
+        "any_fill1000": {
+          "joint": 0.0,
+          "control_reweighted": 7.017543859649123e-06,
+          "difference": -7.017543859649123e-06
+        },
+        "fill_frac3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0010596491228070176,
+          "difference": -0.0010596491228070176
+        },
+        "cancel_frac3000": {
+          "joint": 0.47368421052631576,
+          "control_reweighted": 0.43681607486634794,
+          "difference": 0.03686813565996783
+        },
+        "any_fill3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0010596491228070176,
+          "difference": -0.0010596491228070176
+        },
+        "fill_frac10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0015796450189801989,
+          "difference": -0.0015796450189801989
+        },
+        "cancel_frac10000": {
+          "joint": 0.9947368421052631,
+          "control_reweighted": 0.7954365528440119,
+          "difference": 0.1993002892612512
+        },
+        "any_fill10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0015796450189801989,
+          "difference": -0.0015796450189801989
+        }
+      },
+      "stock_differences": [
+        {
+          "symbol": 688008,
+          "matched_legs": 43,
+          "cancel3_difference": 0.09942572338037614,
+          "fill3_difference": -3.1007751937984497e-05
+        },
+        {
+          "symbol": 688012,
+          "matched_legs": 36,
+          "cancel3_difference": 0.013716477331673423,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688041,
+          "matched_legs": 59,
+          "cancel3_difference": 0.17922503160797826,
+          "fill3_difference": -0.0033898305084745766
+        },
+        {
+          "symbol": 688111,
+          "matched_legs": 31,
+          "cancel3_difference": -0.12213861549532659,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688256,
+          "matched_legs": 21,
+          "cancel3_difference": -0.21676825230562513,
+          "fill3_difference": 0.0
+        }
+      ]
+    },
+    "afternoon": {
+      "eligible_treatment_legs": 436,
+      "matched_treatment_legs": 366,
+      "strata": 218,
+      "distinct_control_legs": 9464,
+      "metrics": {
+        "fill_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 5.253385915168612e-05,
+          "difference": -5.253385915168612e-05
+        },
+        "any_fill1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "fill_frac3000": {
+          "joint": 0.00273224043715847,
+          "control_reweighted": 0.0,
+          "difference": 0.00273224043715847
+        },
+        "cancel_frac3000": {
+          "joint": 0.4726775956284153,
+          "control_reweighted": 0.41609374115860903,
+          "difference": 0.056583854469806294
+        },
+        "any_fill3000": {
+          "joint": 0.00273224043715847,
+          "control_reweighted": 0.0,
+          "difference": 0.00273224043715847
+        },
+        "fill_frac10000": {
+          "joint": 0.00273224043715847,
+          "control_reweighted": 0.0007631997988796445,
+          "difference": 0.0019690406382788257
+        },
+        "cancel_frac10000": {
+          "joint": 0.9781420765027322,
+          "control_reweighted": 0.7963506547941743,
+          "difference": 0.1817914217085579
+        },
+        "any_fill10000": {
+          "joint": 0.00273224043715847,
+          "control_reweighted": 0.0007631997988796445,
+          "difference": 0.0019690406382788257
+        }
+      },
+      "stock_differences": [
+        {
+          "symbol": 688008,
+          "matched_legs": 137,
+          "cancel3_difference": 0.03907124279750265,
+          "fill3_difference": 0.0072992700729927005
+        },
+        {
+          "symbol": 688012,
+          "matched_legs": 72,
+          "cancel3_difference": 0.08077138468972835,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688041,
+          "matched_legs": 73,
+          "cancel3_difference": 0.047672523637907194,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688111,
+          "matched_legs": 17,
+          "cancel3_difference": -0.21720370322955176,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688256,
+          "matched_legs": 67,
+          "cancel3_difference": 0.14557850006516324,
+          "fill3_difference": 0.0
+        }
+      ]
+    }
+  },
+  "matched_exact_distance": {
+    "all": {
+      "eligible_treatment_legs": 664,
+      "matched_treatment_legs": 12,
+      "strata": 8,
+      "distinct_control_legs": 47,
+      "metrics": {
+        "fill_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "any_fill1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "fill_frac3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac3000": {
+          "joint": 0.25,
+          "control_reweighted": 0.38637566137566143,
+          "difference": -0.13637566137566143
+        },
+        "any_fill3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "fill_frac10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac10000": {
+          "joint": 1.0,
+          "control_reweighted": 0.8990740740740741,
+          "difference": 0.10092592592592586
+        },
+        "any_fill10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        }
+      },
+      "stock_differences": [
+        {
+          "symbol": 688008,
+          "matched_legs": 4,
+          "cancel3_difference": -0.1388888888888889,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688012,
+          "matched_legs": 2,
+          "cancel3_difference": 0.09999999999999998,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688041,
+          "matched_legs": 4,
+          "cancel3_difference": -0.0785714285714286,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688111,
+          "matched_legs": 2,
+          "cancel3_difference": -0.48333333333333334,
+          "fill3_difference": 0.0
+        }
+      ]
+    },
+    "morning": {
+      "eligible_treatment_legs": 228,
+      "matched_treatment_legs": 3,
+      "strata": 2,
+      "distinct_control_legs": 10,
+      "metrics": {
+        "fill_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "any_fill1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "fill_frac3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac3000": {
+          "joint": 0.3333333333333333,
+          "control_reweighted": 0.5333333333333333,
+          "difference": -0.2
+        },
+        "any_fill3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "fill_frac10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac10000": {
+          "joint": 1.0,
+          "control_reweighted": 1.0,
+          "difference": 0.0
+        },
+        "any_fill10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        }
+      },
+      "stock_differences": [
+        {
+          "symbol": 688012,
+          "matched_legs": 2,
+          "cancel3_difference": 0.09999999999999998,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688111,
+          "matched_legs": 1,
+          "cancel3_difference": -0.8,
+          "fill3_difference": 0.0
+        }
+      ]
+    },
+    "afternoon": {
+      "eligible_treatment_legs": 436,
+      "matched_treatment_legs": 9,
+      "strata": 6,
+      "distinct_control_legs": 37,
+      "metrics": {
+        "fill_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "any_fill1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "fill_frac3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac3000": {
+          "joint": 0.2222222222222222,
+          "control_reweighted": 0.3373897707231041,
+          "difference": -0.1151675485008819
+        },
+        "any_fill3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "fill_frac10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac10000": {
+          "joint": 1.0,
+          "control_reweighted": 0.8654320987654321,
+          "difference": 0.13456790123456785
+        },
+        "any_fill10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        }
+      },
+      "stock_differences": [
+        {
+          "symbol": 688008,
+          "matched_legs": 4,
+          "cancel3_difference": -0.1388888888888889,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688041,
+          "matched_legs": 4,
+          "cancel3_difference": -0.0785714285714286,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688111,
+          "matched_legs": 1,
+          "cancel3_difference": -0.16666666666666666,
+          "fill3_difference": 0.0
+        }
+      ]
+    }
+  },
+  "matched_exact_distance_size": {
+    "all": {
+      "eligible_treatment_legs": 664,
+      "matched_treatment_legs": 10,
+      "strata": 7,
+      "distinct_control_legs": 42,
+      "metrics": {
+        "fill_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "any_fill1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "fill_frac3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac3000": {
+          "joint": 0.2,
+          "control_reweighted": 0.3836507936507937,
+          "difference": -0.18365079365079368
+        },
+        "any_fill3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "fill_frac10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac10000": {
+          "joint": 1.0,
+          "control_reweighted": 0.8788888888888889,
+          "difference": 0.12111111111111106
+        },
+        "any_fill10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        }
+      },
+      "stock_differences": [
+        {
+          "symbol": 688008,
+          "matched_legs": 4,
+          "cancel3_difference": -0.1388888888888889,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688041,
+          "matched_legs": 4,
+          "cancel3_difference": -0.0785714285714286,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688111,
+          "matched_legs": 2,
+          "cancel3_difference": -0.48333333333333334,
+          "fill3_difference": 0.0
+        }
+      ]
+    },
+    "morning": {
+      "eligible_treatment_legs": 228,
+      "matched_treatment_legs": 1,
+      "strata": 1,
+      "distinct_control_legs": 5,
+      "metrics": {
+        "fill_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "any_fill1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "fill_frac3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.8,
+          "difference": -0.8
+        },
+        "any_fill3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "fill_frac10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac10000": {
+          "joint": 1.0,
+          "control_reweighted": 1.0,
+          "difference": 0.0
+        },
+        "any_fill10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        }
+      },
+      "stock_differences": [
+        {
+          "symbol": 688111,
+          "matched_legs": 1,
+          "cancel3_difference": -0.8,
+          "fill3_difference": 0.0
+        }
+      ]
+    },
+    "afternoon": {
+      "eligible_treatment_legs": 436,
+      "matched_treatment_legs": 9,
+      "strata": 6,
+      "distinct_control_legs": 37,
+      "metrics": {
+        "fill_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "any_fill1000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "fill_frac3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac3000": {
+          "joint": 0.2222222222222222,
+          "control_reweighted": 0.3373897707231041,
+          "difference": -0.1151675485008819
+        },
+        "any_fill3000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "fill_frac10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        },
+        "cancel_frac10000": {
+          "joint": 1.0,
+          "control_reweighted": 0.8654320987654321,
+          "difference": 0.13456790123456785
+        },
+        "any_fill10000": {
+          "joint": 0.0,
+          "control_reweighted": 0.0,
+          "difference": 0.0
+        }
+      },
+      "stock_differences": [
+        {
+          "symbol": 688008,
+          "matched_legs": 4,
+          "cancel3_difference": -0.1388888888888889,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688041,
+          "matched_legs": 4,
+          "cancel3_difference": -0.0785714285714286,
+          "fill3_difference": 0.0
+        },
+        {
+          "symbol": 688111,
+          "matched_legs": 1,
+          "cancel3_difference": -0.16666666666666666,
+          "fill3_difference": 0.0
+        }
+      ]
+    }
+  },
+  "renewal": {
+    "joint_pairs": 332,
+    "previous_candidate_in_group": 332,
+    "by_tolerance_ms": {
+      "0": {
+        "pairs": 165,
+        "fraction_all_joint": 0.49698795180722893
+      },
+      "20": {
+        "pairs": 321,
+        "fraction_all_joint": 0.9668674698795181
+      },
+      "100": {
+        "pairs": 321,
+        "fraction_all_joint": 0.9668674698795181
+      }
+    },
+    "post_add_reduction_within_1sec_legs": 0
+  },
+  "joint_by_stock": [
+    {
+      "symbol": 688008,
+      "pairs": 98,
+      "stocks": 1,
+      "same_qty_fraction": 1.0,
+      "both_top10_fraction": 0.0,
+      "either_top10_fraction": 0.0,
+      "median_buy_rank": 34.0,
+      "median_sell_rank": 23.0,
+      "median_buy_distance_ticks": 46.5,
+      "median_sell_distance_ticks": 38.0,
+      "price_moved_fraction": 1.0,
+      "both_full_cancel_no_postfill_fraction": 0.9897959183673469,
+      "1000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.0,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.0,
+        "common_cancel_probability": 0.0
+      },
+      "3000": {
+        "mean_fill_fraction": 0.00510204081632653,
+        "mean_cancel_fraction": 0.4387755102040816,
+        "any_fill_probability": 0.01020408163265306,
+        "both_full_cancel_probability": 0.3673469387755102,
+        "common_cancel_probability": 0.3673469387755102
+      },
+      "10000": {
+        "mean_fill_fraction": 0.00510204081632653,
+        "mean_cancel_fraction": 0.9693877551020408,
+        "any_fill_probability": 0.01020408163265306,
+        "both_full_cancel_probability": 0.9387755102040817,
+        "common_cancel_probability": 0.7755102040816326
+      }
+    },
+    {
+      "symbol": 688012,
+      "pairs": 71,
+      "stocks": 1,
+      "same_qty_fraction": 1.0,
+      "both_top10_fraction": 0.0,
+      "either_top10_fraction": 0.19718309859154928,
+      "median_buy_rank": 26.0,
+      "median_sell_rank": 13.0,
+      "median_buy_distance_ticks": 71.0,
+      "median_sell_distance_ticks": 61.0,
+      "price_moved_fraction": 1.0,
+      "both_full_cancel_no_postfill_fraction": 1.0,
+      "1000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.0,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.0,
+        "common_cancel_probability": 0.0
+      },
+      "3000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.49295774647887325,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.43661971830985913,
+        "common_cancel_probability": 0.43661971830985913
+      },
+      "10000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 1.0,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 1.0,
+        "common_cancel_probability": 0.8732394366197183
+      }
+    },
+    {
+      "symbol": 688041,
+      "pairs": 79,
+      "stocks": 1,
+      "same_qty_fraction": 1.0,
+      "both_top10_fraction": 0.0,
+      "either_top10_fraction": 0.06329113924050633,
+      "median_buy_rank": 30.0,
+      "median_sell_rank": 19.0,
+      "median_buy_distance_ticks": 43.0,
+      "median_sell_distance_ticks": 42.0,
+      "price_moved_fraction": 1.0,
+      "both_full_cancel_no_postfill_fraction": 1.0,
+      "1000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.0,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.0,
+        "common_cancel_probability": 0.0
+      },
+      "3000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.6265822784810127,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.569620253164557,
+        "common_cancel_probability": 0.569620253164557
+      },
+      "10000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.9746835443037974,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.9493670886075949,
+        "common_cancel_probability": 0.8860759493670886
+      }
+    },
+    {
+      "symbol": 688111,
+      "pairs": 31,
+      "stocks": 1,
+      "same_qty_fraction": 1.0,
+      "both_top10_fraction": 0.0,
+      "either_top10_fraction": 0.3225806451612903,
+      "median_buy_rank": 35.0,
+      "median_sell_rank": 12.0,
+      "median_buy_distance_ticks": 50.0,
+      "median_sell_distance_ticks": 32.0,
+      "price_moved_fraction": 1.0,
+      "both_full_cancel_no_postfill_fraction": 1.0,
+      "1000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.0,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.0,
+        "common_cancel_probability": 0.0
+      },
+      "3000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.1774193548387097,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.12903225806451613,
+        "common_cancel_probability": 0.12903225806451613
+      },
+      "10000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.967741935483871,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.9354838709677419,
+        "common_cancel_probability": 0.8064516129032258
+      }
+    },
+    {
+      "symbol": 688256,
+      "pairs": 53,
+      "stocks": 1,
+      "same_qty_fraction": 1.0,
+      "both_top10_fraction": 0.0,
+      "either_top10_fraction": 0.2641509433962264,
+      "median_buy_rank": 27.0,
+      "median_sell_rank": 15.0,
+      "median_buy_distance_ticks": 186.0,
+      "median_sell_distance_ticks": 148.0,
+      "price_moved_fraction": 1.0,
+      "both_full_cancel_no_postfill_fraction": 1.0,
+      "1000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.0,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.0,
+        "common_cancel_probability": 0.0
+      },
+      "3000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 0.39622641509433965,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 0.3018867924528302,
+        "common_cancel_probability": 0.3018867924528302
+      },
+      "10000": {
+        "mean_fill_fraction": 0.0,
+        "mean_cancel_fraction": 1.0,
+        "any_fill_probability": 0.0,
+        "both_full_cancel_probability": 1.0,
+        "common_cancel_probability": 0.9056603773584906
+      }
+    }
+  ],
+  "common_cancel_sensitivity": {
+    "0": 0.7620481927710844,
+    "20": 0.8463855421686747,
+    "100": 0.8463855421686747
+  },
+  "common_cancel_horizon_sensitivity": {
+    "3000": 0.39759036144578314,
+    "3010": 0.6897590361445783,
+    "3100": 0.7228915662650602,
+    "10000": 0.8463855421686747
+  }
+}

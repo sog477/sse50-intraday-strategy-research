@@ -1,0 +1,945 @@
+{
+  "method": "post-hoc targeted offline checks; sampled patterns, not identities or independently validated strategies",
+  "synchronized_two_sided_688981": {
+    "pairs": [
+      {
+        "time": "11:05:07.360",
+        "buy": {
+          "channel": 1007,
+          "order_id": 8014805,
+          "side": "B",
+          "time": "11:05:07.360",
+          "time_ms": 39907360,
+          "price": 121.2,
+          "qty": 1100,
+          "cancel_times": [
+            "11:05:10.360"
+          ],
+          "cancel_ms": [
+            39910360
+          ],
+          "cancelled": 1100,
+          "trade_rows": 0,
+          "unique_adds": 1
+        },
+        "sell": {
+          "channel": 1007,
+          "order_id": 8014806,
+          "side": "S",
+          "time": "11:05:07.360",
+          "time_ms": 39907360,
+          "price": 122.24,
+          "qty": 1100,
+          "cancel_times": [
+            "11:05:10.360"
+          ],
+          "cancel_ms": [
+            39910360
+          ],
+          "cancelled": 1100,
+          "trade_rows": 0,
+          "unique_adds": 1
+        }
+      },
+      {
+        "time": "11:05:10.360",
+        "buy": {
+          "channel": 1007,
+          "order_id": 8016818,
+          "side": "B",
+          "time": "11:05:10.360",
+          "time_ms": 39910360,
+          "price": 121.24,
+          "qty": 1100,
+          "cancel_times": [
+            "11:05:13.360"
+          ],
+          "cancel_ms": [
+            39913360
+          ],
+          "cancelled": 1100,
+          "trade_rows": 0,
+          "unique_adds": 1
+        },
+        "sell": {
+          "channel": 1007,
+          "order_id": 8016819,
+          "side": "S",
+          "time": "11:05:10.360",
+          "time_ms": 39910360,
+          "price": 122.28,
+          "qty": 1100,
+          "cancel_times": [
+            "11:05:13.360"
+          ],
+          "cancel_ms": [
+            39913360
+          ],
+          "cancelled": 1100,
+          "trade_rows": 0,
+          "unique_adds": 1
+        }
+      },
+      {
+        "time": "11:05:13.360",
+        "buy": {
+          "channel": 1007,
+          "order_id": 8018946,
+          "side": "B",
+          "time": "11:05:13.360",
+          "time_ms": 39913360,
+          "price": 121.25,
+          "qty": 1100,
+          "cancel_times": [
+            "11:05:16.360"
+          ],
+          "cancel_ms": [
+            39916360
+          ],
+          "cancelled": 1100,
+          "trade_rows": 0,
+          "unique_adds": 1
+        },
+        "sell": {
+          "channel": 1007,
+          "order_id": 8018947,
+          "side": "S",
+          "time": "11:05:13.360",
+          "time_ms": 39913360,
+          "price": 122.29,
+          "qty": 1100,
+          "cancel_times": [
+            "11:05:16.360"
+          ],
+          "cancel_ms": [
+            39916360
+          ],
+          "cancelled": 1100,
+          "trade_rows": 0,
+          "unique_adds": 1
+        }
+      },
+      {
+        "time": "11:05:19.360",
+        "buy": {
+          "channel": 1007,
+          "order_id": 8023457,
+          "side": "B",
+          "time": "11:05:19.360",
+          "time_ms": 39919360,
+          "price": 121.25,
+          "qty": 1100,
+          "cancel_times": [
+            "11:05:22.360"
+          ],
+          "cancel_ms": [
+            39922360
+          ],
+          "cancelled": 1100,
+          "trade_rows": 0,
+          "unique_adds": 1
+        },
+        "sell": {
+          "channel": 1007,
+          "order_id": 8023458,
+          "side": "S",
+          "time": "11:05:19.360",
+          "time_ms": 39919360,
+          "price": 122.29,
+          "qty": 1100,
+          "cancel_times": [
+            "11:05:22.360"
+          ],
+          "cancel_ms": [
+            39922360
+          ],
+          "cancelled": 1100,
+          "trade_rows": 0,
+          "unique_adds": 1
+        }
+      },
+      {
+        "time": "11:05:22.360",
+        "buy": {
+          "channel": 1007,
+          "order_id": 8025624,
+          "side": "B",
+          "time": "11:05:22.360",
+          "time_ms": 39922360,
+          "price": 121.19,
+          "qty": 1100,
+          "cancel_times": [
+            "11:05:25.360"
+          ],
+          "cancel_ms": [
+            39925360
+          ],
+          "cancelled": 1100,
+          "trade_rows": 0,
+          "unique_adds": 1
+        },
+        "sell": {
+          "channel": 1007,
+          "order_id": 8025625,
+          "side": "S",
+          "time": "11:05:22.360",
+          "time_ms": 39922360,
+          "price": 122.23,
+          "qty": 1100,
+          "cancel_times": [
+            "11:05:25.360"
+          ],
+          "cancel_ms": [
+            39925360
+          ],
+          "cancelled": 1100,
+          "trade_rows": 0,
+          "unique_adds": 1
+        }
+      },
+      {
+        "time": "11:05:25.360",
+        "buy": {
+          "channel": 1007,
+          "order_id": 8027664,
+          "side": "B",
+          "time": "11:05:25.360",
+          "time_ms": 39925360,
+          "price": 121.2,
+          "qty": 1100,
+          "cancel_times": [
+            "11:05:28.360"
+          ],
+          "cancel_ms": [
+            39928360
+          ],
+          "cancelled": 1100,
+          "trade_rows": 0,
+          "unique_adds": 1
+        },
+        "sell": {
+          "channel": 1007,
+          "order_id": 8027665,
+          "side": "S",
+          "time": "11:05:25.360",
+          "time_ms": 39925360,
+          "price": 122.24,
+          "qty": 1100,
+          "cancel_times": [
+            "11:05:28.360"
+          ],
+          "cancel_ms": [
+            39928360
+          ],
+          "cancelled": 1100,
+          "trade_rows": 0,
+          "unique_adds": 1
+        }
+      }
+    ],
+    "all_selected_orders": [
+      {
+        "channel": 1007,
+        "order_id": 8012587,
+        "side": "B",
+        "time": "11:05:04.360",
+        "time_ms": 39904360,
+        "price": 121.16,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:07.360"
+        ],
+        "cancel_ms": [
+          39907360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8012590,
+        "side": "S",
+        "time": "11:05:04.360",
+        "time_ms": 39904360,
+        "price": 122.2,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:07.360"
+        ],
+        "cancel_ms": [
+          39907360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8014805,
+        "side": "B",
+        "time": "11:05:07.360",
+        "time_ms": 39907360,
+        "price": 121.2,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:10.360"
+        ],
+        "cancel_ms": [
+          39910360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8014806,
+        "side": "S",
+        "time": "11:05:07.360",
+        "time_ms": 39907360,
+        "price": 122.24,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:10.360"
+        ],
+        "cancel_ms": [
+          39910360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8016818,
+        "side": "B",
+        "time": "11:05:10.360",
+        "time_ms": 39910360,
+        "price": 121.24,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:13.360"
+        ],
+        "cancel_ms": [
+          39913360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8016819,
+        "side": "S",
+        "time": "11:05:10.360",
+        "time_ms": 39910360,
+        "price": 122.28,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:13.360"
+        ],
+        "cancel_ms": [
+          39913360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8018946,
+        "side": "B",
+        "time": "11:05:13.360",
+        "time_ms": 39913360,
+        "price": 121.25,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:16.360"
+        ],
+        "cancel_ms": [
+          39916360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8018947,
+        "side": "S",
+        "time": "11:05:13.360",
+        "time_ms": 39913360,
+        "price": 122.29,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:16.360"
+        ],
+        "cancel_ms": [
+          39916360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8021259,
+        "side": "B",
+        "time": "11:05:16.360",
+        "time_ms": 39916360,
+        "price": 121.27,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:19.360"
+        ],
+        "cancel_ms": [
+          39919360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8021261,
+        "side": "S",
+        "time": "11:05:16.360",
+        "time_ms": 39916360,
+        "price": 122.31,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:19.360"
+        ],
+        "cancel_ms": [
+          39919360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8023457,
+        "side": "B",
+        "time": "11:05:19.360",
+        "time_ms": 39919360,
+        "price": 121.25,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:22.360"
+        ],
+        "cancel_ms": [
+          39922360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8023458,
+        "side": "S",
+        "time": "11:05:19.360",
+        "time_ms": 39919360,
+        "price": 122.29,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:22.360"
+        ],
+        "cancel_ms": [
+          39922360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8024817,
+        "side": "B",
+        "time": "11:05:21.360",
+        "time_ms": 39921360,
+        "price": 121.59,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:26.800"
+        ],
+        "cancel_ms": [
+          39926800
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8025080,
+        "side": "B",
+        "time": "11:05:21.610",
+        "time_ms": 39921610,
+        "price": 121.59,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:24.610"
+        ],
+        "cancel_ms": [
+          39924610
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8025624,
+        "side": "B",
+        "time": "11:05:22.360",
+        "time_ms": 39922360,
+        "price": 121.19,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:25.360"
+        ],
+        "cancel_ms": [
+          39925360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8025625,
+        "side": "S",
+        "time": "11:05:22.360",
+        "time_ms": 39922360,
+        "price": 122.23,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:25.360"
+        ],
+        "cancel_ms": [
+          39925360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8027664,
+        "side": "B",
+        "time": "11:05:25.360",
+        "time_ms": 39925360,
+        "price": 121.2,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:28.360"
+        ],
+        "cancel_ms": [
+          39928360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1007,
+        "order_id": 8027665,
+        "side": "S",
+        "time": "11:05:25.360",
+        "time_ms": 39925360,
+        "price": 122.24,
+        "qty": 1100,
+        "cancel_times": [
+          "11:05:28.360"
+        ],
+        "cancel_ms": [
+          39928360
+        ],
+        "cancelled": 1100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      }
+    ]
+  },
+  "batch_cancel_600050": {
+    "orders": [
+      {
+        "channel": 1002,
+        "order_id": 3778133,
+        "side": "B",
+        "time": "09:57:15.460",
+        "time_ms": 35835460,
+        "price": 4.19,
+        "qty": 3100,
+        "cancel_times": [
+          "09:59:12.810"
+        ],
+        "cancel_ms": [
+          35952810
+        ],
+        "cancelled": 3100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1002,
+        "order_id": 3798120,
+        "side": "B",
+        "time": "09:57:30.440",
+        "time_ms": 35850440,
+        "price": 4.19,
+        "qty": 3100,
+        "cancel_times": [
+          "09:59:12.880"
+        ],
+        "cancel_ms": [
+          35952880
+        ],
+        "cancelled": 3100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1002,
+        "order_id": 3820846,
+        "side": "B",
+        "time": "09:57:45.410",
+        "time_ms": 35865410,
+        "price": 4.19,
+        "qty": 3100,
+        "cancel_times": [
+          "09:59:12.880"
+        ],
+        "cancel_ms": [
+          35952880
+        ],
+        "cancelled": 3100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1002,
+        "order_id": 3839239,
+        "side": "B",
+        "time": "09:58:00.980",
+        "time_ms": 35880980,
+        "price": 4.19,
+        "qty": 3100,
+        "cancel_times": [
+          "09:59:12.880"
+        ],
+        "cancel_ms": [
+          35952880
+        ],
+        "cancelled": 3100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1002,
+        "order_id": 3857092,
+        "side": "B",
+        "time": "09:58:15.520",
+        "time_ms": 35895520,
+        "price": 4.19,
+        "qty": 3100,
+        "cancel_times": [
+          "09:59:12.880"
+        ],
+        "cancel_ms": [
+          35952880
+        ],
+        "cancelled": 3100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1002,
+        "order_id": 3875191,
+        "side": "B",
+        "time": "09:58:30.500",
+        "time_ms": 35910500,
+        "price": 4.19,
+        "qty": 3100,
+        "cancel_times": [
+          "09:59:12.890"
+        ],
+        "cancel_ms": [
+          35952890
+        ],
+        "cancelled": 3100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1002,
+        "order_id": 3891377,
+        "side": "B",
+        "time": "09:58:45.440",
+        "time_ms": 35925440,
+        "price": 4.19,
+        "qty": 3100,
+        "cancel_times": [
+          "09:59:12.900"
+        ],
+        "cancel_ms": [
+          35952900
+        ],
+        "cancelled": 3100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      },
+      {
+        "channel": 1002,
+        "order_id": 3905678,
+        "side": "B",
+        "time": "09:59:00.510",
+        "time_ms": 35940510,
+        "price": 4.19,
+        "qty": 3100,
+        "cancel_times": [
+          "09:59:12.930"
+        ],
+        "cancel_ms": [
+          35952930
+        ],
+        "cancelled": 3100,
+        "trade_rows": 0,
+        "unique_adds": 1
+      }
+    ],
+    "cancel_spread_ms": 120,
+    "cancel_start": "09:59:12.810",
+    "cancel_end": "09:59:12.930"
+  },
+  "cash_formula_selected_buys": [
+    {
+      "symbol": 688008,
+      "target_yuan": 100000,
+      "periodic_selected_buy_orders": 2232,
+      "exact_ceil_target_over_price": 1568,
+      "fraction": 0.7025089605734767,
+      "examples": [
+        {
+          "time": "09:43:46.160",
+          "price": 224.7,
+          "original_qty": 446,
+          "original_order_id": 2982472
+        },
+        {
+          "time": "09:43:47.460",
+          "price": 224.65,
+          "original_qty": 446,
+          "original_order_id": 2985020
+        },
+        {
+          "time": "09:43:48.750",
+          "price": 224.57,
+          "original_qty": 446,
+          "original_order_id": 2987467
+        },
+        {
+          "time": "09:43:50.050",
+          "price": 224.52,
+          "original_qty": 446,
+          "original_order_id": 2989814
+        },
+        {
+          "time": "09:43:51.370",
+          "price": 224.45,
+          "original_qty": 446,
+          "original_order_id": 2992112
+        },
+        {
+          "time": "09:43:52.650",
+          "price": 224.46,
+          "original_qty": 446,
+          "original_order_id": 2994308
+        }
+      ]
+    },
+    {
+      "symbol": 688012,
+      "target_yuan": 200000,
+      "periodic_selected_buy_orders": 2408,
+      "exact_ceil_target_over_price": 1872,
+      "fraction": 0.7774086378737541,
+      "examples": [
+        {
+          "time": "09:35:34.390",
+          "price": 351.03,
+          "original_qty": 570,
+          "original_order_id": 1465425
+        },
+        {
+          "time": "09:35:37.390",
+          "price": 351.07,
+          "original_qty": 570,
+          "original_order_id": 1472305
+        },
+        {
+          "time": "09:35:40.400",
+          "price": 351.21,
+          "original_qty": 570,
+          "original_order_id": 1478568
+        },
+        {
+          "time": "09:35:43.390",
+          "price": 351.02,
+          "original_qty": 570,
+          "original_order_id": 1486478
+        },
+        {
+          "time": "09:35:46.390",
+          "price": 351.1,
+          "original_qty": 570,
+          "original_order_id": 1493099
+        },
+        {
+          "time": "09:35:49.390",
+          "price": 351.11,
+          "original_qty": 570,
+          "original_order_id": 1501313
+        }
+      ]
+    },
+    {
+      "symbol": 688041,
+      "target_yuan": 100000,
+      "periodic_selected_buy_orders": 2384,
+      "exact_ceil_target_over_price": 1638,
+      "fraction": 0.6870805369127517,
+      "examples": [
+        {
+          "time": "09:31:34.890",
+          "price": 255.1,
+          "original_qty": 393,
+          "original_order_id": 968806
+        },
+        {
+          "time": "09:31:37.880",
+          "price": 254.9,
+          "original_qty": 393,
+          "original_order_id": 979084
+        },
+        {
+          "time": "09:31:40.880",
+          "price": 254.85,
+          "original_qty": 393,
+          "original_order_id": 988568
+        },
+        {
+          "time": "09:31:43.880",
+          "price": 254.98,
+          "original_qty": 393,
+          "original_order_id": 997215
+        },
+        {
+          "time": "09:31:49.890",
+          "price": 254.97,
+          "original_qty": 393,
+          "original_order_id": 1014601
+        },
+        {
+          "time": "09:31:52.880",
+          "price": 254.87,
+          "original_qty": 393,
+          "original_order_id": 1023670
+        }
+      ]
+    },
+    {
+      "symbol": 688111,
+      "target_yuan": 100000,
+      "periodic_selected_buy_orders": 576,
+      "exact_ceil_target_over_price": 448,
+      "fraction": 0.7777777777777778,
+      "examples": [
+        {
+          "time": "09:31:30.300",
+          "price": 228.07,
+          "original_qty": 439,
+          "original_order_id": 770084
+        },
+        {
+          "time": "09:31:33.300",
+          "price": 228.04,
+          "original_qty": 439,
+          "original_order_id": 781526
+        },
+        {
+          "time": "09:31:36.300",
+          "price": 228.15,
+          "original_qty": 439,
+          "original_order_id": 791198
+        },
+        {
+          "time": "09:31:39.300",
+          "price": 228.2,
+          "original_qty": 439,
+          "original_order_id": 800305
+        },
+        {
+          "time": "09:31:42.300",
+          "price": 228.27,
+          "original_qty": 439,
+          "original_order_id": 809131
+        },
+        {
+          "time": "09:31:45.300",
+          "price": 228.25,
+          "original_qty": 439,
+          "original_order_id": 816941
+        }
+      ]
+    },
+    {
+      "symbol": 688256,
+      "target_yuan": 300000,
+      "periodic_selected_buy_orders": 2840,
+      "exact_ceil_target_over_price": 2832,
+      "fraction": 0.9971830985915493,
+      "examples": [
+        {
+          "time": "09:37:35.950",
+          "price": 1112.7,
+          "original_qty": 270,
+          "original_order_id": 1722168
+        },
+        {
+          "time": "09:37:38.950",
+          "price": 1112.81,
+          "original_qty": 270,
+          "original_order_id": 1728008
+        },
+        {
+          "time": "09:37:41.950",
+          "price": 1112.52,
+          "original_qty": 270,
+          "original_order_id": 1735861
+        },
+        {
+          "time": "09:37:44.950",
+          "price": 1112.87,
+          "original_qty": 270,
+          "original_order_id": 1743524
+        },
+        {
+          "time": "09:37:47.970",
+          "price": 1113.02,
+          "original_qty": 270,
+          "original_order_id": 1751007
+        },
+        {
+          "time": "09:37:50.950",
+          "price": 1114.19,
+          "original_qty": 270,
+          "original_order_id": 1757685
+        }
+      ]
+    }
+  ]
+}

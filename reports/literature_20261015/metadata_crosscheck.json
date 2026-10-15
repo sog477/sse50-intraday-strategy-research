@@ -1,0 +1,1360 @@
+[
+  {
+    "id": "P03",
+    "requested_doi": "10.1111/fire.12363",
+    "source": "https://api.crossref.org/works/10.1111/fire.12363",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "The determinants of limit order cancellations"
+    ],
+    "author": [
+      {
+        "given": "Petter",
+        "family": "Dahlström",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Industrial Engineering and Management Royal Institute of Technology Stockholm Sweden"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0055-5121",
+        "authenticated-orcid": false,
+        "given": "Björn",
+        "family": "Hagströmer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Stockholm Business School Stockholm University Stockholm Sweden"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lars L.",
+        "family": "Nordén",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Stockholm Business School Stockholm University Stockholm Sweden"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "container-title": [
+      "Financial Review"
+    ],
+    "DOI": "10.1111/fire.12363",
+    "type": "journal-article"
+  },
+  {
+    "id": "P04",
+    "requested_doi": "10.1016/j.finmar.2008.06.002",
+    "source": "https://api.crossref.org/works/10.1016/j.finmar.2008.06.002",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "Technology and liquidity provision: The blurring of traditional definitions"
+    ],
+    "author": [
+      {
+        "given": "Joel",
+        "family": "Hasbrouck",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gideon",
+        "family": "Saar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2009,
+          5
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2009,
+          5
+        ]
+      ]
+    },
+    "published-online": null,
+    "container-title": [
+      "Journal of Financial Markets"
+    ],
+    "DOI": "10.1016/j.finmar.2008.06.002",
+    "type": "journal-article"
+  },
+  {
+    "id": "P05",
+    "requested_doi": "10.1016/j.finmar.2013.05.003",
+    "source": "https://api.crossref.org/works/10.1016/j.finmar.2013.05.003",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "Low-latency trading"
+    ],
+    "author": [
+      {
+        "given": "Joel",
+        "family": "Hasbrouck",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gideon",
+        "family": "Saar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          11
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          11
+        ]
+      ]
+    },
+    "published-online": null,
+    "container-title": [
+      "Journal of Financial Markets"
+    ],
+    "DOI": "10.1016/j.finmar.2013.05.003",
+    "type": "journal-article"
+  },
+  {
+    "id": "P07",
+    "requested_doi": "10.1287/mnsc.2023.03371",
+    "source": "https://api.crossref.org/works/10.1287/mnsc.2023.03371",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "Queuing Uncertainty of Limit Orders"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4326-3658",
+        "authenticated-orcid": false,
+        "given": "Bart Zhou",
+        "family": "Yueshen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Lee Kong Chian School of Business, Singapore Management University, Singapore 178899"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "published-online": null,
+    "container-title": [
+      "Management Science"
+    ],
+    "DOI": "10.1287/mnsc.2023.03371",
+    "type": "journal-article"
+  },
+  {
+    "id": "P10",
+    "requested_doi": "10.1016/j.physa.2009.09.019",
+    "source": "https://api.crossref.org/works/10.1016/j.physa.2009.09.019",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "Empirical regularities of opening call auction in Chinese stock market"
+    ],
+    "author": [
+      {
+        "given": "Gao-Feng",
+        "family": "Gu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fei",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiao-Hui",
+        "family": "Ni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei-Xing",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2010,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2010,
+          1
+        ]
+      ]
+    },
+    "published-online": null,
+    "container-title": [
+      "Physica A: Statistical Mechanics and its Applications"
+    ],
+    "DOI": "10.1016/j.physa.2009.09.019",
+    "type": "journal-article"
+  },
+  {
+    "id": "P11",
+    "requested_doi": "10.1016/j.physa.2008.01.114",
+    "source": "https://api.crossref.org/works/10.1016/j.physa.2008.01.114",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "Empirical regularities of order placement in the Chinese stock market"
+    ],
+    "author": [
+      {
+        "given": "Gao-Feng",
+        "family": "Gu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei-Xing",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          5
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2008,
+          5
+        ]
+      ]
+    },
+    "published-online": null,
+    "container-title": [
+      "Physica A: Statistical Mechanics and its Applications"
+    ],
+    "DOI": "10.1016/j.physa.2008.01.114",
+    "type": "journal-article"
+  },
+  {
+    "id": "P15",
+    "requested_doi": "10.1016/j.econmod.2012.11.055",
+    "source": "https://api.crossref.org/works/10.1016/j.econmod.2012.11.055",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "An empirical analysis of the Shanghai and Shenzhen limit order books"
+    ],
+    "author": [
+      {
+        "given": "Huimin",
+        "family": "Chung",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Cheng",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jie",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Bruce",
+        "family": "Mizrach",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          8
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          8
+        ]
+      ]
+    },
+    "published-online": null,
+    "container-title": [
+      "Economic Modelling"
+    ],
+    "DOI": "10.1016/j.econmod.2012.11.055",
+    "type": "journal-article"
+  },
+  {
+    "id": "P16",
+    "requested_doi": "10.1016/j.econmod.2021.105560",
+    "source": "https://api.crossref.org/works/10.1016/j.econmod.2021.105560",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "An analysis of impact of cancellation activity on market quality: Evidence from China"
+    ],
+    "author": [
+      {
+        "given": "Gang",
+        "family": "Chu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yongjie",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xiaotao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          9
+        ]
+      ]
+    },
+    "published-online": null,
+    "container-title": [
+      "Economic Modelling"
+    ],
+    "DOI": "10.1016/j.econmod.2021.105560",
+    "type": "journal-article"
+  },
+  {
+    "id": "P17",
+    "requested_doi": "10.1111/irfi.12047",
+    "source": "https://api.crossref.org/works/10.1111/irfi.12047",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "Call Auction Transparency and Market Liquidity: Evidence from <scp>C</scp>hina"
+    ],
+    "author": [
+      {
+        "given": "Dionigi",
+        "family": "Gerace",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Accounting, Economics and Finance University of Wollongong  Wollongong NSW Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qigui",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Accounting, Economics and Finance University of Wollongong  Wollongong NSW Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gary Gang",
+        "family": "Tian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Accounting, Economics and Finance University of Wollongong  Wollongong NSW Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Willa",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Accounting, Economics and Finance University of Wollongong  Wollongong NSW Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          18
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          18
+        ]
+      ]
+    },
+    "container-title": [
+      "International Review of Finance"
+    ],
+    "DOI": "10.1111/irfi.12047",
+    "type": "journal-article"
+  },
+  {
+    "id": "P18",
+    "requested_doi": "10.1186/s40854-021-00288-4",
+    "source": "https://api.crossref.org/works/10.1186/s40854-021-00288-4",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "An empirical behavioral order-driven model with price limit rules"
+    ],
+    "author": [
+      {
+        "given": "Gao-Feng",
+        "family": "Gu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xiong",
+        "family": "Xiong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Hai-Chuan",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yongjie",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8952-8228",
+        "authenticated-orcid": false,
+        "given": "Wei-Xing",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          12
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          1
+        ]
+      ]
+    },
+    "container-title": [
+      "Financial Innovation"
+    ],
+    "DOI": "10.1186/s40854-021-00288-4",
+    "type": "journal-article"
+  },
+  {
+    "id": "P19",
+    "requested_doi": "10.1093/jjfinec/nbt003",
+    "source": "https://api.crossref.org/works/10.1093/jjfinec/nbt003",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "The Price Impact of Order Book Events"
+    ],
+    "author": [
+      {
+        "given": "R.",
+        "family": "Cont",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Kukanov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Stoikov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          6,
+          7
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          1,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          6,
+          7
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of Financial Econometrics"
+    ],
+    "DOI": "10.1093/jjfinec/nbt003",
+    "type": "journal-article"
+  },
+  {
+    "id": "P23",
+    "requested_doi": "10.1002/fut.20334",
+    "source": "https://api.crossref.org/works/10.1002/fut.20334",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "The information content of an open limit‐order book"
+    ],
+    "author": [
+      {
+        "given": "Charles",
+        "family": "Cao",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Oliver",
+        "family": "Hansch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoxin",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          11,
+          21
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2009,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2008,
+          11,
+          21
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of Futures Markets"
+    ],
+    "DOI": "10.1002/fut.20334",
+    "type": "journal-article"
+  },
+  {
+    "id": "P24",
+    "requested_doi": "10.1016/j.jedc.2015.09.012",
+    "source": "https://api.crossref.org/works/10.1016/j.jedc.2015.09.012",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "Resiliency of the limit order book"
+    ],
+    "author": [
+      {
+        "given": "Danny K.",
+        "family": "Lo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anthony D.",
+        "family": "Hall",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "published-online": null,
+    "container-title": [
+      "Journal of Economic Dynamics and Control"
+    ],
+    "DOI": "10.1016/j.jedc.2015.09.012",
+    "type": "journal-article"
+  },
+  {
+    "id": "P26",
+    "requested_doi": "10.1080/14697688.2023.2236159",
+    "source": "https://api.crossref.org/works/10.1080/14697688.2023.2236159",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "Cross-impact of order flow imbalance in equity markets"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1164-6053",
+        "authenticated-orcid": false,
+        "given": "Rama",
+        "family": "Cont",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Mathematical Institute, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Oxford Suzhou Centre for Advanced Research, Suzhou, People's Republic of China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8464-2152",
+        "authenticated-orcid": false,
+        "given": "Mihai",
+        "family": "Cucuringu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Mathematical Institute, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Department of Statistics, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Oxford-Man Institute of Quantitative Finance, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "The Alan Turing Institute, London, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0013-336X",
+        "authenticated-orcid": false,
+        "given": "Chao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Mathematical Institute, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Department of Statistics, University of Oxford, Oxford, UK"
+          },
+          {
+            "name": "Oxford-Man Institute of Quantitative Finance, University of Oxford, Oxford, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          17
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          3
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          17
+        ]
+      ]
+    },
+    "container-title": [
+      "Quantitative Finance"
+    ],
+    "DOI": "10.1080/14697688.2023.2236159",
+    "type": "journal-article"
+  },
+  {
+    "id": "P27",
+    "requested_doi": "10.1016/j.finmar.2025.100982",
+    "source": "https://api.crossref.org/works/10.1016/j.finmar.2025.100982",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "Queuing and inventories in limit order markets"
+    ],
+    "author": [
+      {
+        "given": "Corey",
+        "family": "Garriott",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vincent",
+        "family": "van Kervel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5322-7554",
+        "authenticated-orcid": false,
+        "given": "Marius",
+        "family": "Zoican",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "published-online": null,
+    "container-title": [
+      "Journal of Financial Markets"
+    ],
+    "DOI": "10.1016/j.finmar.2025.100982",
+    "type": "journal-article"
+  },
+  {
+    "id": "P29",
+    "requested_doi": "10.1093/rfs/hhv023",
+    "source": "https://api.crossref.org/works/10.1093/rfs/hhv023",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "Competition for Order Flow with Fast and Slow Traders"
+    ],
+    "author": [
+      {
+        "given": "Vincent",
+        "family": "van Kervel",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "VU University Amsterdam"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          13
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          7,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          13
+        ]
+      ]
+    },
+    "container-title": [
+      "The Review of Financial Studies"
+    ],
+    "DOI": "10.1093/rfs/hhv023",
+    "type": "journal-article"
+  },
+  {
+    "id": "P37",
+    "requested_doi": "10.1016/j.econmod.2024.106708",
+    "source": "https://api.crossref.org/works/10.1016/j.econmod.2024.106708",
+    "checked_on": "2026-10-15",
+    "status": "ok",
+    "title": [
+      "Market price determination: Interpreting quote order imbalance under zero-profit equilibrium"
+    ],
+    "author": [
+      {
+        "given": "Yunshen",
+        "family": "Long",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jingzhou",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Liang",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xingchen",
+        "family": "Long",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "published-online": null,
+    "container-title": [
+      "Economic Modelling"
+    ],
+    "DOI": "10.1016/j.econmod.2024.106708",
+    "type": "journal-article"
+  }
+]

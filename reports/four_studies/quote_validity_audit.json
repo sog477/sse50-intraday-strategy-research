@@ -1,0 +1,357 @@
+{
+  "stocks": 50,
+  "invalid_post_message_states": 0,
+  "invalid_end_of_timestamp_states": 0,
+  "results": [
+    {
+      "symbol": 600028,
+      "continuous_distinct_timestamps": 115454,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600030,
+      "continuous_distinct_timestamps": 85021,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600031,
+      "continuous_distinct_timestamps": 116719,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600036,
+      "continuous_distinct_timestamps": 102073,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600050,
+      "continuous_distinct_timestamps": 51127,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600089,
+      "continuous_distinct_timestamps": 61304,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600111,
+      "continuous_distinct_timestamps": 78388,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600150,
+      "continuous_distinct_timestamps": 178197,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600183,
+      "continuous_distinct_timestamps": 321258,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600276,
+      "continuous_distinct_timestamps": 133773,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600309,
+      "continuous_distinct_timestamps": 147076,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600406,
+      "continuous_distinct_timestamps": 73195,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600519,
+      "continuous_distinct_timestamps": 63443,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600760,
+      "continuous_distinct_timestamps": 33878,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600809,
+      "continuous_distinct_timestamps": 48781,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600887,
+      "continuous_distinct_timestamps": 94865,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600900,
+      "continuous_distinct_timestamps": 127017,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 600930,
+      "continuous_distinct_timestamps": 71697,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601012,
+      "continuous_distinct_timestamps": 92885,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601088,
+      "continuous_distinct_timestamps": 64405,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601127,
+      "continuous_distinct_timestamps": 79672,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601166,
+      "continuous_distinct_timestamps": 58172,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601211,
+      "continuous_distinct_timestamps": 64780,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601288,
+      "continuous_distinct_timestamps": 166368,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601318,
+      "continuous_distinct_timestamps": 119861,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601328,
+      "continuous_distinct_timestamps": 72398,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601398,
+      "continuous_distinct_timestamps": 126502,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601600,
+      "continuous_distinct_timestamps": 137127,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601601,
+      "continuous_distinct_timestamps": 81463,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601628,
+      "continuous_distinct_timestamps": 54812,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601658,
+      "continuous_distinct_timestamps": 66663,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601668,
+      "continuous_distinct_timestamps": 80278,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601688,
+      "continuous_distinct_timestamps": 57018,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601728,
+      "continuous_distinct_timestamps": 58141,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601857,
+      "continuous_distinct_timestamps": 84822,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601888,
+      "continuous_distinct_timestamps": 54503,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601899,
+      "continuous_distinct_timestamps": 206787,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601919,
+      "continuous_distinct_timestamps": 82020,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 601988,
+      "continuous_distinct_timestamps": 115115,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 603019,
+      "continuous_distinct_timestamps": 89248,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 603259,
+      "continuous_distinct_timestamps": 171851,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 603501,
+      "continuous_distinct_timestamps": 56131,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 603986,
+      "continuous_distinct_timestamps": 266314,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 603993,
+      "continuous_distinct_timestamps": 165745,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 688008,
+      "continuous_distinct_timestamps": 207267,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 688012,
+      "continuous_distinct_timestamps": 114155,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 688041,
+      "continuous_distinct_timestamps": 154095,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 688111,
+      "continuous_distinct_timestamps": 49479,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 688256,
+      "continuous_distinct_timestamps": 102467,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    },
+    {
+      "symbol": 688981,
+      "continuous_distinct_timestamps": 106684,
+      "invalid_post_message_states": 0,
+      "invalid_end_of_timestamp_states": 0,
+      "first_invalid": []
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "date": "20260923",
+  "quotes_raw": 252631,
+  "quotes_valid": 236581,
+  "quote_stocks": 50,
+  "predictive_stocks": 49,
+  "nonoverlap_samples": 23211,
+  "assumed_observation_lag_ms": 1000,
+  "target": "future 30s midpoint from last quote available <= target; quote age <=4s, same session",
+  "timing": "all features assumed available 1s after quote/event timestamps; alignment search never used",
+  "excluded_predictive_stock": 601166,
+  "fixed_thresholds": {
+    "obi": 0.8,
+    "volume_shock": 3,
+    "flow": 0.6,
+    "absorption_volume_shock": 2
+  },
+  "bootstrap": "1000 crossed stock/10-minute clock-block resamples, seed20260923, >=5 observations per group/stock",
+  "comparisons": {
+    "morning": {
+      "obi_return": {
+        "groups": [
+          "buy-heavy",
+          "sell-heavy"
+        ],
+        "stocks": 48,
+        "observations": 2698,
+        "eligible_observations": 2676,
+        "equal_stock_mean_a": 0.8422284291330606,
+        "equal_stock_mean_b": -1.9281984406306398,
+        "difference_a_minus_b": 2.7704268697637002,
+        "within_day_95pct_interval": [
+          1.3467218713888807,
+          4.524883720477638
+        ]
+      },
+      "obi_up_probability": {
+        "groups": [
+          "buy-heavy",
+          "sell-heavy"
+        ],
+        "stocks": 48,
+        "observations": 2698,
+        "eligible_observations": 2676,
+        "equal_stock_mean_a": 0.37217279987578206,
+        "equal_stock_mean_b": 0.24276045322767073,
+        "difference_a_minus_b": 0.12941234664811138,
+        "within_day_95pct_interval": [
+          0.06518815920171253,
+          0.20119501451716826
+        ]
+      },
+      "volume_shock_volatility": {
+        "groups": [
+          "shock>=3",
+          "normal0.5-1.5"
+        ],
+        "stocks": 41,
+        "observations": 6527,
+        "eligible_observations": 5200,
+        "equal_stock_mean_a": 4.927048568552095,
+        "equal_stock_mean_b": 4.401349854403856,
+        "difference_a_minus_b": 0.5256987141482394,
+        "within_day_95pct_interval": [
+          -0.541568998910054,
+          1.5001546221577173
+        ]
+      },
+      "volume_shock_previous_volatility": {
+        "groups": [
+          "shock>=3",
+          "normal0.5-1.5"
+        ],
+        "stocks": 41,
+        "observations": 6527,
+        "eligible_observations": 5200,
+        "equal_stock_mean_a": 8.802488046502045,
+        "equal_stock_mean_b": 4.529945849139742,
+        "difference_a_minus_b": 4.272542197362303,
+        "within_day_95pct_interval": [
+          3.1539821741893386,
+          5.4968712258920105
+        ]
+      },
+      "absorption_signed_return": {
+        "groups": [
+          "no-progress",
+          "progress>=1tick"
+        ],
+        "stocks": 8,
+        "observations": 469,
+        "eligible_observations": 122,
+        "equal_stock_mean_a": 1.4542182019728254,
+        "equal_stock_mean_b": -0.114032490829023,
+        "difference_a_minus_b": 1.5682506928018483,
+        "within_day_95pct_interval": [
+          -1.7107130935252273,
+          5.6740110934178105
+        ]
+      }
+    },
+    "afternoon": {
+      "obi_return": {
+        "groups": [
+          "buy-heavy",
+          "sell-heavy"
+        ],
+        "stocks": 46,
+        "observations": 2700,
+        "eligible_observations": 2599,
+        "equal_stock_mean_a": 0.9841858985549244,
+        "equal_stock_mean_b": -1.3465314514335052,
+        "difference_a_minus_b": 2.3307173499884293,
+        "within_day_95pct_interval": [
+          1.5335313835962365,
+          3.32429181981759
+        ]
+      },
+      "obi_up_probability": {
+        "groups": [
+          "buy-heavy",
+          "sell-heavy"
+        ],
+        "stocks": 46,
+        "observations": 2700,
+        "eligible_observations": 2599,
+        "equal_stock_mean_a": 0.3711709554409413,
+        "equal_stock_mean_b": 0.17741105222157325,
+        "difference_a_minus_b": 0.19375990321936817,
+        "within_day_95pct_interval": [
+          0.1381285430460485,
+          0.26111460321896135
+        ]
+      },
+      "volume_shock_volatility": {
+        "groups": [
+          "shock>=3",
+          "normal0.5-1.5"
+        ],
+        "stocks": 42,
+        "observations": 6813,
+        "eligible_observations": 5686,
+        "equal_stock_mean_a": 3.746129423900629,
+        "equal_stock_mean_b": 2.533970396636085,
+        "difference_a_minus_b": 1.2121590272645444,
+        "within_day_95pct_interval": [
+          0.5640313311936358,
+          1.9378651850029476
+        ]
+      },
+      "volume_shock_previous_volatility": {
+        "groups": [
+          "shock>=3",
+          "normal0.5-1.5"
+        ],
+        "stocks": 42,
+        "observations": 6813,
+        "eligible_observations": 5686,
+        "equal_stock_mean_a": 6.995203629416854,
+        "equal_stock_mean_b": 2.415823686298607,
+        "difference_a_minus_b": 4.579379943118249,
+        "within_day_95pct_interval": [
+          3.516324908985684,
+          5.951632712797506
+        ]
+      },
+      "absorption_signed_return": {
+        "groups": [
+          "no-progress",
+          "progress>=1tick"
+        ],
+        "stocks": 2,
+        "observations": 449,
+        "eligible_observations": 27,
+        "equal_stock_mean_a": 1.658808979459297,
+        "equal_stock_mean_b": 0.372106720506656,
+        "difference_a_minus_b": 1.2867022589526411,
+        "within_day_95pct_interval": [
+          -3.1402147119524475,
+          4.603520126924451
+        ]
+      }
+    }
+  },
+  "median_spread_bp_all_quotes": 3.9024390243902443,
+  "single_tick_fraction": 0.7871088548953635,
+  "notes": "Single day; morning/afternoon split is intraday holdout only. Zero changes count as neither up nor down. No trade PnL, fees or queue fills inferred.",
+  "liquidity_by_price": {
+    "price<10": {
+      "stocks": 11,
+      "median_price": 6.115,
+      "median_spread_bp": 16.35322976287817,
+      "median_l1_depth_shares": 2477750.0,
+      "median_l1_depth_value": 16030990.75,
+      "median_spread_ticks": 1.0
+    },
+    "price>=100": {
+      "stocks": 11,
+      "median_price": 227.025,
+      "median_spread_bp": 1.3870587419377212,
+      "median_l1_depth_shares": 1347.5,
+      "median_l1_depth_value": 348702.5,
+      "median_spread_ticks": 3.0
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "symbol": 688256,
+  "channel": 1004,
+  "selected_after_scan": true,
+  "orders": [
+    {
+      "side": "B",
+      "id": 3889670,
+      "add_time": 95838960,
+      "add_seq": 6075134,
+      "qty": 271,
+      "price": 1110.4,
+      "cancel_times": [
+        95841960
+      ],
+      "cancel_seqs": [
+        6081288
+      ],
+      "cancel_qty": 271,
+      "trade_rows": 0
+    },
+    {
+      "side": "S",
+      "id": 3889671,
+      "add_time": 95838960,
+      "add_seq": 6075135,
+      "qty": 271,
+      "price": 1114.24,
+      "cancel_times": [
+        95841960
+      ],
+      "cancel_seqs": [
+        6081289
+      ],
+      "cancel_qty": 271,
+      "trade_rows": 0
+    },
+    {
+      "side": "B",
+      "id": 3892941,
+      "add_time": 95841950,
+      "add_seq": 6081272,
+      "qty": 271,
+      "price": 1110.47,
+      "cancel_times": [
+        95844960
+      ],
+      "cancel_seqs": [
+        6086744
+      ],
+      "cancel_qty": 271,
+      "trade_rows": 0
+    },
+    {
+      "side": "S",
+      "id": 3892940,
+      "add_time": 95841950,
+      "add_seq": 6081271,
+      "qty": 271,
+      "price": 1114.31,
+      "cancel_times": [
+        95844960
+      ],
+      "cancel_seqs": [
+        6086754
+      ],
+      "cancel_qty": 271,
+      "trade_rows": 0
+    },
+    {
+      "side": "B",
+      "id": 3896054,
+      "add_time": 95844960,
+      "add_seq": 6086740,
+      "qty": 271,
+      "price": 1110.25,
+      "cancel_times": [
+        95847960
+      ],
+      "cancel_seqs": [
+        6091807
+      ],
+      "cancel_qty": 271,
+      "trade_rows": 0
+    },
+    {
+      "side": "S",
+      "id": 3896053,
+      "add_time": 95844960,
+      "add_seq": 6086739,
+      "qty": 271,
+      "price": 1114.08,
+      "cancel_times": [
+        95847960
+      ],
+      "cancel_seqs": [
+        6091806
+      ],
+      "cancel_qty": 271,
+      "trade_rows": 0
+    },
+    {
+      "side": "B",
+      "id": 3899170,
+      "add_time": 95847950,
+      "add_seq": 6091802,
+      "qty": 271,
+      "price": 1110.33,
+      "cancel_times": [
+        95850960
+      ],
+      "cancel_seqs": [
+        6096754
+      ],
+      "cancel_qty": 271,
+      "trade_rows": 0
+    },
+    {
+      "side": "S",
+      "id": 3899171,
+      "add_time": 95847950,
+      "add_seq": 6091803,
+      "qty": 271,
+      "price": 1114.17,
+      "cancel_times": [
+        95850960
+      ],
+      "cancel_seqs": [
+        6096753
+      ],
+      "cancel_qty": 271,
+      "trade_rows": 0
+    }
+  ]
+}

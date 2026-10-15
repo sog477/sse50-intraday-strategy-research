@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "data_date": "2026-09-23",
+  "queue": "Uniform live BBO order per side every5s; observe other reductions for1s; retain unchanged own order and continuously unchanged same-side best; first own cancellation/execution over1/3/10s; full10s window",
+  "maker": "Independent min-lot BBO-tail probes each60s both sides, fixed limit for30s; tape-only and tape+new-crossing-residual scenarios; fill and1/5/30s post-fill markouts; complete60s window",
+  "gaps": "Every fifth contiguous aggressor execution group; train per-stock volume Q25/Q75 in09:30-10:00, evaluate>=10:00; before-gap and exact pre/post BBO; immediate attribution separate from future drift",
+  "replacement": "Full cancellation to new observable same-side/same-quantity candidate; include ADD-backed quantity repaired from pre-ADD fills and no-ADD aggressor trades; unique both ways; windows20/100/1000ms, after-only and symmetric; +60s/+300s time-shift diagnostics",
+  "limitations": "Single day, repeated observations, no trader identity/receive/send/reject timestamps; hypothetical fills not live experiments; no strategy profit claim"
+}

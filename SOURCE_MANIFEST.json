@@ -1,0 +1,90 @@
+{
+  "audit.py": {
+    "sha256": "00df747e2a6867c651814650b790351307be880b0660fcecec16f17037cf5d33",
+    "original_sha256": "00df747e2a6867c651814650b790351307be880b0660fcecec16f17037cf5d33"
+  },
+  "audit_research_quotes.py": {
+    "sha256": "f5a462e546a70bc62ead5e5ffad288f0bcea9505e0134c97e931aab56b4fd78c",
+    "original_sha256": "f5a462e546a70bc62ead5e5ffad288f0bcea9505e0134c97e931aab56b4fd78c"
+  },
+  "execution_backtest.py": {
+    "sha256": "33d35ecbcecafa821ca06153b9406d56dcbbe8a9a527a01cdc9763a65907c4e9",
+    "original_sha256": "33d35ecbcecafa821ca06153b9406d56dcbbe8a9a527a01cdc9763a65907c4e9"
+  },
+  "execution_strategy.py": {
+    "sha256": "dc4bc0c8173c502baf1a692679e90da87f2e5862103ee53656312b38c790f035",
+    "original_sha256": "dc4bc0c8173c502baf1a692679e90da87f2e5862103ee53656312b38c790f035"
+  },
+  "four_studies.py": {
+    "sha256": "38ba42a9b3491ae9c0ec9cc914aa85c6f1b570c92df83f4fa4c820938f680c78",
+    "original_sha256": "38ba42a9b3491ae9c0ec9cc914aa85c6f1b570c92df83f4fa4c820938f680c78"
+  },
+  "joint_quote_study.py": {
+    "sha256": "b63c0758909a0f6d40238930992a7124feb79b33acdc12b18a1a70b3e1a74dc8",
+    "original_sha256": "b63c0758909a0f6d40238930992a7124feb79b33acdc12b18a1a70b3e1a74dc8"
+  },
+  "orderbook.py": {
+    "sha256": "0bc82aed0868b5dea39157c0134f4c0fd8811f37fc84f2e1e5ed5c0e55428901",
+    "original_sha256": "0bc82aed0868b5dea39157c0134f4c0fd8811f37fc84f2e1e5ed5c0e55428901"
+  },
+  "order_patterns.py": {
+    "sha256": "91679498ebef544b347cda425df541fe7f1fda65d87cfc57479bdbc5447c9ab5",
+    "original_sha256": "91679498ebef544b347cda425df541fe7f1fda65d87cfc57479bdbc5447c9ab5"
+  },
+  "plot_execution_day.py": {
+    "sha256": "826abb18a15a83c756dec35024e30be8f4bdc28866233348b03b93f050f2fe53",
+    "original_sha256": "97bf3f77f0e85821d8d85781720811eab5df2862c2d5521ae1d4152b274c2e1f"
+  },
+  "plot_fonts.py": {
+    "sha256": "ef763bde370e94886318c8222cdb1a32fc9fd27ba75ebc711da80b2cdfcfe266",
+    "original_sha256": null
+  },
+  "plot_four_studies.py": {
+    "sha256": "ababde82893f9bc118459f6e9acf99a3319a3b35382a662fa541249e448afcbb",
+    "original_sha256": "a51e28d143ef88e345dc937921cab66b16d8e180b2d2386a5a637c0071f42995"
+  },
+  "plot_joint_quotes.py": {
+    "sha256": "5107d1b97e75b6ddf3b7813f7e51d41965ee1deb2be4c7a81985d5c735ebbb53",
+    "original_sha256": "b11c71920d4c07b122aad7eb6b183148840baebe52175c2d8cfec4818de29d4d"
+  },
+  "plot_order_patterns.py": {
+    "sha256": "14c3228c2400875ab02f068e43baa395964ba7ae4c7740eabd5afc651188e02a",
+    "original_sha256": "ef4ec6c3fc024566876c85e84b02f3511e285bc69f060cf1d3f5f7dec9c2d11c"
+  },
+  "plot_research.py": {
+    "sha256": "1a655257abe8c55f38501fed7b919712e217ac8cd0035964571310937d07d3a0",
+    "original_sha256": "e9f82cae667f87eec8ef2cd95d8241744e73b04539773e9f612e7a1b1f750746"
+  },
+  "research.py": {
+    "sha256": "6522d086d78f462d92be24bbf84feb1dcc56d32408f0763a76d0e19b0436fc42",
+    "original_sha256": "6522d086d78f462d92be24bbf84feb1dcc56d32408f0763a76d0e19b0436fc42"
+  },
+  "simulator.py": {
+    "sha256": "7ec2635f5bee751711306ec483e89c816a58564ecb57ec44edeed4a225e2bd6c",
+    "original_sha256": "7ec2635f5bee751711306ec483e89c816a58564ecb57ec44edeed4a225e2bd6c"
+  },
+  "summarize_execution_day.py": {
+    "sha256": "649a0c9bd034a2b06bf034039541f2182de59bf7f609aaa9934bb2214e70ef4b",
+    "original_sha256": "649a0c9bd034a2b06bf034039541f2182de59bf7f609aaa9934bb2214e70ef4b"
+  },
+  "summarize_four_studies.py": {
+    "sha256": "593899df1c4b560f0942523457f2dbd287010cd70372957956caf28c19e9bd6d",
+    "original_sha256": "593899df1c4b560f0942523457f2dbd287010cd70372957956caf28c19e9bd6d"
+  },
+  "supplement_four_studies.py": {
+    "sha256": "1b070371dd883842bef95f7e4f7092fa3585c644d62bbdbc62c19a5198b2769c",
+    "original_sha256": "1b070371dd883842bef95f7e4f7092fa3585c644d62bbdbc62c19a5198b2769c"
+  },
+  "verify_execution_tail.py": {
+    "sha256": "8589ebc27fc249d62374baf0618aad46f7d3127c4d207ec6edc57979319413ed",
+    "original_sha256": "8589ebc27fc249d62374baf0618aad46f7d3127c4d207ec6edc57979319413ed"
+  },
+  "verify_four_cases.py": {
+    "sha256": "acdf852b38845d7900e9c01b2d78da87a94c418cd64566ec2dfd51feaf181737",
+    "original_sha256": "acdf852b38845d7900e9c01b2d78da87a94c418cd64566ec2dfd51feaf181737"
+  },
+  "reports/order_patterns/check_additional_clues.py": {
+    "sha256": "4dfb3cf330c0f332bba840276e37dc7d3686d800570990ebe57bf3dc154d7497",
+    "original_sha256": "4dfb3cf330c0f332bba840276e37dc7d3686d800570990ebe57bf3dc154d7497"
+  }
+}
